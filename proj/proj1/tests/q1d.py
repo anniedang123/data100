@@ -1,0 +1,10 @@
+test = {   'name': 'q1d',
+    'points': 3,
+    'suites': [   {   'cases': [   {'code': '>>> df_allclose(bus.rename(columns = {"bid" : "business id column"}), bus_summary)\nTrue', 'hidden': False, 'locked': False},
+                                   {'code': '>>> df_allclose(ins_test, ins_summary)\nTrue', 'hidden': False, 'locked': False},
+                                   {'code': '>>> df_allclose(vio, vio_summary)\nTrue', 'hidden': False, 'locked': False},
+                                   {'code': '>>> df_allclose(ins2vio, vio_summary)\nTrue', 'hidden': False, 'locked': False}],
+                      'scored': True,
+                      'setup': '',
+                      'teardown': '',
+                      'type': 'doctest'}]}

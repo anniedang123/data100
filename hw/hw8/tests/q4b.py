@@ -1,0 +1,10 @@
+test = {   'name': 'q4b',
+    'points': 2,
+    'suites': [   {   'cases': [   {'code': '>>> surfboard_rank2_approximation_centered.shape == (1000, 3)\nTrue', 'hidden': False, 'locked': False},
+                                   {'code': ">>> np.isclose(surfboard_rank2_approximation_centered.loc[5, 'x'], 1.7266963951826804)\nTrue", 'hidden': False, 'locked': False},
+                                   {'code': ">>> np.isclose(surfboard_rank2_approximation_centered.loc[10, 'y'], 0.9079479355680893)\nTrue", 'hidden': False, 'locked': False},
+                                   {'code': ">>> np.isclose(surfboard_rank2_approximation_centered.loc[15, 'z'], 4.209999733072268)\nTrue", 'hidden': False, 'locked': False}],
+                      'scored': True,
+                      'setup': '',
+                      'teardown': '',
+                      'type': 'doctest'}]}
